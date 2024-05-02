@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-# displays Best School 10 times using until.
-
-count=10
-until [ $count -lt 1 ]
-do
-    echo "Best School"
-    (( count++ ))
-done
