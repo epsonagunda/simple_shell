@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # script that displays its own PID.
+#script_pid=$$
 
-script_pid=$$
-echo "the script pid is : $script_pid"
+echo $$
