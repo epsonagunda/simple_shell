@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#server -01
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/schoo
+
+#username and ip address
+
+ssh ubuntu@54.237.72.73
